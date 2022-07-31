@@ -1,0 +1,15 @@
+ProcessID 1
+ProcessState Finished
+ProcessPC 12
+ProcessLowerBoundry 0
+ProcessUpperBoundry 14
+Instruction0 semWait userInput
+Instruction1 assign a 1
+Instruction2 assign b 4
+Instruction3 semSignal userInput
+Instruction4 semWait userOutput
+Instruction5 printFromTo a b
+Instruction6 semSignal userOutput
+a 1
+b 4
+Variable2 Unintialized

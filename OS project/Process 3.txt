@@ -1,0 +1,17 @@
+ProcessID 3
+ProcessState Finished
+ProcessPC 29
+ProcessLowerBoundry 15
+ProcessUpperBoundry 31
+Instruction0 semWait userInput
+Instruction1 assign a meow
+Instruction2 semSignal userInput
+Instruction3 semWait file
+Instruction4 assign b hellow
+Instruction5 semSignal file
+Instruction6 semWait userOutput
+Instruction7 print b
+Instruction8 semSignal userOutput
+a meow
+b hellow
+Variable2 Unintialized
